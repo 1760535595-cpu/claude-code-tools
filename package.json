@@ -1,0 +1,25 @@
+{
+  "name": "@xiaopin44/claude-code-tools",
+  "version": "1.0.0",
+  "description": "Claude Code 级工具套件 — 智能文件编辑、智能搜索、PowerShell 安全执行、定时任务管理、后台任务管理、子代理增强。Windows 原生适配，开箱即用。",
+  "keywords": ["claude-code", "openclaw", "ai-agent", "agent-tools", "powershell-security", "file-edit", "grep", "glob", "cron", "task-manager", "subagent", "code-editing", "windows-agent", "mcp"],
+  "homepage": "https://github.com/1760535595-cpu/claude-code-tools",
+  "bugs": { "url": "https://github.com/1760535595-cpu/claude-code-tools/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/1760535595-cpu/claude-code-tools.git" },
+  "license": "MIT",
+  "author": "xiaopin44",
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org" },
+  "type": "commonjs",
+  "bin": {
+    "cct": "./bin/cli.cjs",
+    "claude-code-tools": "./bin/cli.cjs",
+    "cct-file-edit": "./bin/cli.cjs",
+    "cct-search": "./bin/cli.cjs",
+    "cct-powershell": "./bin/cli.cjs",
+    "cct-cron": "./bin/cli.cjs",
+    "cct-task": "./bin/cli.cjs",
+    "cct-subagent": "./bin/cli.cjs"
+  },
+  "files": ["bin/", "lib/", "README.md", "LICENSE"],
+  "engines": { "node": ">=18.0.0" }
+}
