@@ -1,4 +1,5 @@
 # @xiaopin44/claude-code-tools
+<img width="1910" height="915" alt="a2a3dd616b5980100cf549a822b6434b" src="https://github.com/user-attachments/assets/49f091de-11da-4899-8241-b7a0cc0bb179" />
 
 > **Claude Code 级 AI Agent 工具套件 — 让 AI Agent 在 Windows 上也能像 Claude Code 一样干活。**
 > 纯 Node.js · 零外部依赖 · Windows 原生适配
